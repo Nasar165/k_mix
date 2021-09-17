@@ -1,0 +1,32 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "a simple http server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nasar165/k_mix"
+  },
+  "keywords": [
+    "http",
+    "api",
+    "nodejs",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Nasar Eddaoui",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
